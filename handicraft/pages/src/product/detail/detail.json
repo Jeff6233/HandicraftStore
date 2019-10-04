@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "cut-line":"../../../components/cut-line/cut-line"
+  },
+  "navigationBarTitleText": "商品详情"
+}

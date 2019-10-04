@@ -1,0 +1,121 @@
+/* pages/shopping.wxss */
+.shopping{
+  overflow:hidden;
+  text-align: center;
+  height: 100vh;
+}
+.shopping .box{
+  position: relative;
+  top: 20vh;
+  width: 40%;
+  margin: 0 auto;
+}
+.shopping .box .remark{
+  margin-top: 30px;
+  display: inline-block;
+}
+.shopping .box button{
+  background-color: black;
+  color: white;
+  border-radius: 0px;
+  margin-top: 60px;
+}
+.shopping .box .spicon{
+  width: 80px;
+  height: 80px;
+}
+.shopping .shoppinglist{
+  overflow: hidden;
+  height: 180rpx;
+  padding-bottom: 15px;
+}
+.shopping .shoppinglist .radios{
+  float: left;
+  width: 10vw;
+  line-height: 180rpx;
+}
+.shopping .shoppinglist .product-image{
+  float:left;
+  width: 35vw;
+}
+.shopping .shoppinglist .product-image >image{
+  width: 35vw;
+  height: 180rpx;
+}
+.shopping .shoppinglist .product-detail{
+  float:left;
+  width: 55vw;
+}
+.shopping .shoppinglist .product-detail .n1,.n2{
+  overflow: hidden;
+}
+.shopping .shoppinglist .product-detail .product-name{
+  width: 80%;
+  float: left;
+  text-align:left;
+  padding-left: 5%;
+}
+.shopping .shoppinglist .product-detail .delete-icon{
+  width: 15%;
+  float: left;
+}
+.shopping .shoppinglist .product-detail .delete-icon >image{
+  width: 20px;
+  height: 20px;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-top: 1px solid rgb(207, 205, 205);
+}
+.footer >view{
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.footer .selected-all{
+  float: left;
+  width: 20vw;
+  font-size: 14px;
+}
+.footer .amount{
+  float: left;
+  width: 40vw;
+  font-size: 14px;
+}
+.footer .payment{
+  float: right;
+  width: 40vw;
+  /* background-color: rgba(107, 103, 103, 0.897); */
+  color: white;
+
+}
+
+/* checkbox */
+checkbox .wx-checkbox-input{
+    border-radius: 50%;/* 圆角 */
+    width: 40rpx; /* 背景的宽 */
+    height: 40rpx; /* 背景的高 */
+}
+ 
+/* 选中后的样式 （可根据设计稿需求自己修改） */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+    background: #2facff;
+    border-color: #2facff;
+}
+ 
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+    border-radius: 50%;
+    width: 46rpx;
+    height: 46rpx;
+    line-height: 46rpx;
+    text-align: center;
+    font-size: 28rpx; /* 对勾大小 28rpx */
+    color: #fff; /* 对勾颜色 白色 */
+    background: transparent;
+    transform: translate(-50%, -50%) scale(1);
+    -webkit-transform: translate(-50%, -50%) scale(1);
+}

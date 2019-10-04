@@ -1,0 +1,44 @@
+/* pages/userinfo/userinfo.wxss */
+.userinfo{
+  text-align: center;
+}
+.userinfo-avatar {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.avatar{
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+.userinfo .footer{
+  width: 100vw;
+  position: fixed;
+  bottom: 0rpx;
+  left:0rpx;
+}
+.userinfo .footer>button{
+  background-color: rgb(167, 167, 167);
+}
+.userinfo .privateInfo{
+  color: rgb(148, 148, 148);
+  text-align: left;
+  font-size: 14px;
+  margin-top: 100rpx;
+}
+.userinfo .privateInfo >view >text{
+  padding-left: 10rpx;
+  width: 20%;
+  float: left;
+}
+.userinfo .privateInfo >view{
+  height: 80rpx;
+  border-bottom: 1px solid rgba(179, 175, 175, 0.39);
+  line-height: 80rpx;
+}
+.userinfo .privateInfo >view >input{
+  height: 80rpx;
+  width: 70%;
+}

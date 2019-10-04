@@ -1,0 +1,6 @@
+/* pages/components/cut-line/cut-line.wxss */
+.cut-line{
+    height: 30rpx;
+    width: 100vm;
+    background-color: rgba(204, 204, 204, 0.233);
+}

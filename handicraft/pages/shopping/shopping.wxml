@@ -1,0 +1,37 @@
+<!--pages/shopping.wxml-->
+<view class="shopping">
+  <view wx:if="{{shoppingCarList.length==0}}">
+    <view class="box">
+      <view><image class="spicon" src="icon/shopping_bags.png"></image></view>
+      <text class="remark">购物车是空的</text>
+      <button bindtap="goShopping">去购买</button>
+    </view>
+  </view>
+
+  <view wx:else>
+  <checkbox-group bindchange="selectItem">
+    <view class="shoppinglist" wx:for="{{shoppingCarList}}" wx:key="*this">
+      <view class="radios"><checkbox checked="{{isCheckedAll}}" value="{{item.Product.Id}}"/></view>
+      <view class="product-image"><image src="http://localhost/Handicraft{{item.Product.ImagePath}}"/></view>
+      <view class="product-detail">
+        <view class="n1">
+          <view class="product-name">{{item.Product.Name}}</view>
+          <view class="delete-icon"  bindtap="removeProduct" data-productId="{{item.Product.Id}}"><image src="icon/delete.png"/></view>
+        </view>
+        <view class="n2">
+          <view class="product-price">￥{{item.Product.Price}}</view>
+          <view class="product-count">{{item.Count}}</view>
+        </view>
+      </view>
+    </view>
+  </checkbox-group>
+    <view class="footer">
+      <view class="selected-all"><checkbox checked="{{isCheckedAll}}" bindtap="seletedAll">全选</checkbox></view>
+      <view class="amount">总计{{totalAmount}}</view>
+      <view class="payment" style="background-color:{{paymentColor}}" bindtap="goPayment">支付</view>
+    </view>
+  
+    
+  </view>
+  
+</view>

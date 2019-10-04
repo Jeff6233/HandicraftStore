@@ -1,0 +1,7 @@
+<view class='item'>
+  所在地区 
+  <picker mode="multiSelector" bindchange="bindRegionChange" bindcolumnchange="bindRegionColumnChange" range='{{multiArray}}'>
+    <text wx:if="{{addressCity}}">{{addressCity[0]}} > {{addressCity[1]}} > {{addressCity[2]}}</text>
+    <text wx:else class='placeholder'>请选择地区</text>
+  </picker> 
+</view>

@@ -1,0 +1,16 @@
+<!--pages/userinfo/userinfo.wxml-->
+<view class="userinfo">
+  <view class="userIcon">
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+  </view>
+  <view class="privateInfo">
+    <cut-line/>
+    <view><text>姓</text><input type="text" class="first-name" bindinput="firstName" value="{{userInfo2.FirstName}}"/></view>
+    <view><text>名</text><input type="text" class="last-name" bindinput="lastName" value="{{userInfo2.LastName}}"/></view>
+    <view><text>手机号码</text><input type="text" class="phone-number" bindinput="phoneNum"/></view>
+    <view><text>省份城市</text><input type="text" class="city" bindinput="city" value="{{userInfo2.City}}"/></view>
+  </view>
+  <view class="footer">
+    <button bindtap="saveUserInfo">保存</button>
+  </view>
+</view>

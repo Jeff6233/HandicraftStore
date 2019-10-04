@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="index">
+  <view class="show-type" wx:for="{{product}}" wx:key="*this">
+    <view class="product-type-image" bindtap="openDetail" data-type="{{item.Type}}"><image src="http://localhost/Handicraft{{item.BannerImage[0]}}"></image></view>
+    <view class="product-type-name">{{item.Type}}</view>
+  </view>
+</view>

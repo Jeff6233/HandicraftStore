@@ -1,0 +1,17 @@
+<view class="my">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    </block>
+  </view>
+  <view class="edit-userinfo">
+    <text bindtap="openUserInfo">点击修改个人信息</text>
+  </view>
+  <view class="my-menu">
+    <view class="all-order"><image src="./icon/order.png"/><text>全部订单</text><image src="./icon/arrows.png"/></view>
+    <view class="my-collect"><image src="./icon/collect.png"/><text>我的收藏</text><image src="./icon/arrows.png"/></view>
+    <view class="customer-service"><image src="./icon/customer_service.png"/><text>在线客服</text><image src="./icon/arrows.png"/></view>
+    <view class="address-manage"><image src="./icon/address.png"/><text>地址管理</text><image src="./icon/arrows.png"/></view>
+  </view>
+</view>

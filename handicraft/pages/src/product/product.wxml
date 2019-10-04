@@ -1,0 +1,16 @@
+<!--pages/src/product/product.wxml-->
+<view class="product">
+  <view class="product-for" wx:for="{{product}}" wx:key="*this">
+    <view class="product-box" bindtap="openDetail" data-id="{{item.Id}}">
+    <!-- <image src="http://localhost/Handicraft{{item.BannerImage[0]}}"></image> -->
+      <view class="product-image"><image src="http://localhost/Handicraft{{item.BannerImage[0]}}"/></view>
+      <view class="product-name">{{item.Name}}</view>
+      <view class="product-price">￥{{item.Price}}</view>
+    </view>
+    <view class="product-box">
+      <view class="product-image"><image src="http://localhost/Handicraft{{item.BannerImage[0]}}"/></view>
+      <view class="product-name">{{item.Name}}</view>
+      <view class="product-price">￥{{item.Price}}</view>
+    </view>
+  </view>
+</view>

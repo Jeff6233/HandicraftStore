@@ -1,0 +1,56 @@
+<!--pages/src/product/detail/detail.wxml-->
+<view class="product-detail">
+  <!-- 轮播 -->
+    <view class="page-section page-section-spacing swiper">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{bannerImage}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item"><image src="http://localhost/Handicraft{{item}}"></image></view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  <!--简介-->
+    <view class="introduction">
+      <view class="title">{{product.Name}}</view>
+      <view class="remark">{{product.Introduction}}</view>
+      <view class="price">￥{{product.Price}}</view>
+    </view>
+    <cut-line/>
+    <view class="navigation">
+      <view class="navigation-combo" bindtap="goHome">
+        <view class="navigation-icon"><image src="icon/home.png" /></view>
+        <text class="icon-name">主页</text>
+      </view>
+      <view class="navigation-combo">
+        <view class="navigation-icon"><image src="icon/collect.png" /></view>
+        <text class="icon-name">收藏</text>
+      </view>
+      <view class="navigation-combo" bindtap="call">
+        <view class="navigation-icon"><image src="icon/客服.png" /></view>
+        <text class="icon-name">客服</text>
+      </view>
+      <view class="navigation-combo">
+        <view class="navigation-icon"><image src="icon/share.png" /></view>
+        <button open-type="share" class="share">分享</button>
+      </view>
+    </view>
+    <cut-line/>
+    <view class="detail-image">
+      
+    </view>
+    <view class="footer">
+      <view class="shopping-bag" bindtap="goShopingCar">
+        <view class="bag-icon"><image class="shopping-bag-icon" src="./icon/bag.png"></image></view>
+        <text style="background-color:'red'">购物袋</text>
+      </view>
+      <view class="add-shopping-bag" bindtap="addShoppingCar">
+        加入购物袋
+      </view>
+      <view class="buy-now" bindtap="goPayment">
+        立即购买
+      </view>
+    </view>
+</view>

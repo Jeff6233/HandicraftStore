@@ -1,0 +1,57 @@
+/* pages/my/my.wxss */
+.my{
+  text-align: center;
+}
+.my .edit-userinfo{
+  color: rgb(133, 133, 131);
+  display: inline-block;
+  margin-top: 40rpx;
+  font-size: 14px;
+}
+.userinfo-avatar {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.avatar{
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.textline{
+  border-bottom: 1px solid #C9C8C7;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+.my-menu{
+  text-align: left;
+  margin-top: 80rpx;
+}
+.my-menu > view{
+  height: 80rpx;
+  border-top: 1px solid #eee;
+  line-height: 80rpx;
+  padding-left: 30rpx;
+}
+.my-menu > view >text{
+  margin-left: 30rpx;
+}
+.my-menu > view >text +image{
+  padding-right: 10rpx;
+  vertical-align: middle;
+  float: right;
+  top: 18rpx;
+  position: relative;
+}
+.my-menu >view >image{
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+  line-height: 80rpx;
+}
+.address-manage{
+  border-bottom: 1px solid #eee;
+}

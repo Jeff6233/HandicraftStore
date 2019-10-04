@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "address-picker": "../components/address_picker/address_picker",
+    "cut-line":"../components/cut-line/cut-line"
+  },
+  "navigationBarTitleText":"个人信息"
+}

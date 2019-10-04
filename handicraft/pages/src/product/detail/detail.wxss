@@ -1,0 +1,86 @@
+/* pages/src/product/detail/detail.wxss */
+@import "css/banner";
+.product-detail .footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.product-detail .navigation .navigation-combo .navigation-icon >image{
+    width: 60rpx;
+    height: 60rpx;
+}
+.product-detail .navigation .navigation-combo .share{
+  padding: 0;
+  margin: 0;
+  line-height:normal;
+  font-size: 13px;
+  border-style: none; 
+  background-color: Transparent; 
+  outline: none;
+}
+.product-detail .navigation .navigation-combo .share::after{
+  border: none;
+}
+.product-detail .navigation .navigation-combo{
+  float: left;
+  padding-right: 45rpx;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 25rpx;
+  font-size: 13px;
+}
+.product-detail .navigation{
+  overflow: hidden;
+  margin:0 auto;
+  clear: both;
+  width: 70vw;
+  margin-left: 12vmax;
+}
+.product-detail .introduction{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50rpx;
+}
+.product-detail .introduction .title{
+  font-size: 15px;
+}
+.product-detail .introduction .remark{
+  font-size: 14px;
+  color: rgba(61, 61, 61, 0.596);
+}
+.product-detail .introduction .price{
+  font-size: 16px;
+  color: rgb(167, 8, 8);
+}
+.product-detail .footer{
+  width: 100vw;
+}
+.product-detail .footer >view{
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+.product-detail .footer .shopping-bag{
+  width: 20%;
+  float: left;
+  background-color: cadetblue;
+  font-size: 12px;
+}
+.product-detail .footer .add-shopping-bag{
+  width: 40%;
+  float: left;
+  background-color: rgb(57, 114, 116);
+}
+.bag-icon{
+  height: 10px;
+}
+.shopping-bag-icon{
+  width: 30px;
+  height: 30px;
+}
+.product-detail .footer .buy-now{
+  width: 40%;
+  float: left;
+  background-color: rgb(31, 77, 78);
+}
