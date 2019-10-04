@@ -1,0 +1,14 @@
+C:\Users\DrSim\Desktop\API\Handicraft\Handicraft\bin\Debug\netcoreapp2.2\Handicraft.deps.json
+C:\Users\DrSim\Desktop\API\Handicraft\Handicraft\bin\Debug\netcoreapp2.2\Handicraft.runtimeconfig.json
+C:\Users\DrSim\Desktop\API\Handicraft\Handicraft\bin\Debug\netcoreapp2.2\Handicraft.runtimeconfig.dev.json
+C:\Users\DrSim\Desktop\API\Handicraft\Handicraft\bin\Debug\netcoreapp2.2\Handicraft.dll
+C:\Users\DrSim\Desktop\API\Handicraft\Handicraft\obj\Debug\netcoreapp2.2\Handicraft.csprojAssemblyReference.cache
+C:\Users\DrSim\Desktop\API\Handicraft\Handicraft\obj\Debug\netcoreapp2.2\Handicraft.csproj.CoreCompileInputs.cache
+C:\Users\DrSim\Desktop\API\Handicraft\Handicraft\obj\Debug\netcoreapp2.2\Handicraft.RazorAssemblyInfo.cache
+C:\Users\DrSim\Desktop\API\Handicraft\Handicraft\obj\Debug\netcoreapp2.2\Handicraft.RazorAssemblyInfo.cs
+C:\Users\DrSim\Desktop\API\Handicraft\Handicraft\obj\Debug\netcoreapp2.2\Handicraft.AssemblyInfoInputs.cache
+C:\Users\DrSim\Desktop\API\Handicraft\Handicraft\obj\Debug\netcoreapp2.2\Handicraft.AssemblyInfo.cs
+C:\Users\DrSim\Desktop\API\Handicraft\Handicraft\obj\Debug\netcoreapp2.2\Handicraft.RazorTargetAssemblyInfo.cache
+C:\Users\DrSim\Desktop\API\Handicraft\Handicraft\bin\Debug\netcoreapp2.2\Handicraft.pdb
+C:\Users\DrSim\Desktop\API\Handicraft\Handicraft\obj\Debug\netcoreapp2.2\Handicraft.dll
+C:\Users\DrSim\Desktop\API\Handicraft\Handicraft\obj\Debug\netcoreapp2.2\Handicraft.pdb
