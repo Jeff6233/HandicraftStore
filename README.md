@@ -1,2 +1,2 @@
 # HandicraftStore
-StoreDemo
+StoreDemo develop by WeChat
